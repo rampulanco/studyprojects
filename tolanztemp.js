@@ -224,11 +224,11 @@ p.frameBounds = [rect];
 
 	// Layer 1
 	this.main = new lib.mainPage();
-	this.main.setTransform(384,429.4,1,1,90,0,0,429.4,384);
+	this.main.setTransform(429.4,384,1,1,0,0,0,429.4,384);
 
 	this.addChild(this.main);
 }).prototype = p = new cjs.Container();
-p.nominalBounds = rect = new cjs.Rectangle(0,-165,768,1189.1);
+p.nominalBounds = rect = new cjs.Rectangle(-165,0,1189.1,768);
 p.frameBounds = [rect];
 
 })(lib = lib||{}, images = images||{}, createjs = createjs||{});
