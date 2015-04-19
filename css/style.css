@@ -1,5 +1,5 @@
-canvas {
+#game-container {
  
-  width:491px;
-  height:655px;
+ 
+  background-color:#ffffff;
 }
